@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: darkcyan;
+}
+
+.logoWild {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 30px;
+  width: 40%;
+  height: 30%;
+}
+
+.listLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  width: 50%;
+  height: 20%;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: large;
+}
+
+.logoSn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.logo {
+  width: 50px;
+  margin: 20px;
+}
