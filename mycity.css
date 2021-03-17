@@ -1,0 +1,39 @@
+h1{
+   text-align: center;
+}
+h2{
+   color: grey;
+   margin: auto;
+}
+
+#city{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+img{
+   width: 500px;
+   height: 400px;
+   width: 100%;
+}
+.city-capitole{
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   padding: 20px;
+}
+.city-rue{
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%; 
+   padding: 20px;
+}
+.city-canal{
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%; 
+   padding: 20px;
+}
