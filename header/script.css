@@ -15,9 +15,8 @@ div {
 }
 
 ul{
-    background: black;
     display: flex;
-    justify-content: right;
+    justify-content: right;/*à résoudre cela ne marche pas*/
 }
 
 ul li{
@@ -29,4 +28,12 @@ ul li a {
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
-}    
+}
+
+a:hover{           /*à resoudre sa marche pas*/
+    color: black;
+  }
+
+#lien1 #lien2 #lien3{
+    justify-content: right;
+}
