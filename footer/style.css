@@ -2,7 +2,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: darkcyan;
+  background-color: rgb(117, 117, 117);
 }
 
 .logoWild {
@@ -24,6 +24,14 @@ footer {
   margin-left: 0;
   padding-left: 0;
   font-size: large;
+}
+
+.listLink {
+  color: black;
+}
+
+.listLink li:hover {
+  color: red;
 }
 
 .logoSn {
