@@ -1,0 +1,62 @@
+/*GENERAL DE LA PAGE*/
+h1{
+   text-align: center;
+}
+p{
+   width: 40%;
+   text-align: center;
+   margin: auto;
+}
+/*img{
+   height: 400px;
+   width: 100%;
+   padding: 20px;
+   overflow: hidden;
+   box-shadow: 15px 15px 15px #777;
+}
+.element{
+   display: flex;
+   justify-content: space-around;
+}
+/*PREMIERE CARD / IMAGE*/
+.city-capitole {
+   width: 90%;
+   padding: auto;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-bottom: 30px;
+}
+/*DEUXIEME CARD / IMAGE*/
+.city-rue{
+   width: 90%;
+   border-radius: 20px;
+   box-shadow: 15px 15px 15px #777;
+   padding: auto;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-bottom: 30px;
+}
+
+/*BUTTON*/
+input{
+   display: block;
+   position: relative;
+   margin: auto;
+   background-color: rgb(238, 108, 108);
+   width: 120px;
+   height: 30px;
+   font-size: 20px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.button-index p{
+   font-size: 20px;
+}
+
+
+
