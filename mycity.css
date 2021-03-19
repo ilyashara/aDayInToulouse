@@ -7,11 +7,12 @@ p{
    text-align: center;
    margin: auto;
 }
-img{
+/*img{
    height: 400px;
    width: 100%;
    padding: 20px;
    overflow: hidden;
+   box-shadow: 15px 15px 15px #777;
 }
 .element{
    display: flex;
@@ -20,11 +21,9 @@ img{
 /*PREMIERE CARD / IMAGE*/
 .city-capitole {
    width: 90%;
-   border: 1px black solid;
-   border-radius: 20px;
-   box-shadow: 15px 15px 15px #777;
    padding: auto;
    display:flex;
+   flex-wrap: wrap;
    justify-content: center;
    align-items: center;
    margin: auto;
@@ -33,7 +32,6 @@ img{
 /*DEUXIEME CARD / IMAGE*/
 .city-rue{
    width: 90%;
-   border: 1px black solid;
    border-radius: 20px;
    box-shadow: 15px 15px 15px #777;
    padding: auto;
@@ -43,19 +41,7 @@ img{
    margin: auto;
    margin-bottom: 30px;
 }
-/*TROIXIEME CARD / IMAGE*/
-.city-canal {
-   width: 90%;
-   border: 1px black solid;
-   border-radius: 20px;
-   box-shadow: 15px 15px 15px #777;
-   padding: auto;
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   margin: auto;
-   margin-bottom: 40px;
-}
+
 /*BUTTON*/
 input{
    display: block;
