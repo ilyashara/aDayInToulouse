@@ -1,62 +1,42 @@
-/*GENERAL DE LA PAGE*/
-h1{
-   text-align: center;
-}
-p{
-   width: 40%;
-   text-align: center;
-   margin: auto;
-}
-/*img{
-   height: 400px;
+/*GENERAL*/
+body{
    width: 100%;
-   padding: 20px;
-   overflow: hidden;
-   box-shadow: 15px 15px 15px #777;
+}
+p {
+   text-align: center;
+   width: 100%;
+}
+h1 {
+   text-align: center;
+}
+/*IMAGE*/
+#mycity{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   
+}
+.element img {
+   width: 500px;
+   height: 400px;
+   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 28px 0 rgba(0, 0, 0, 0.19);
+   margin: auto;
+   border-radius: 20px;
 }
 .element{
-   display: flex;
-   justify-content: space-around;
+   margin-left: 10px;
+   margin-bottom: 10px;
 }
-/*PREMIERE CARD / IMAGE*/
-.city-capitole {
-   width: 90%;
-   padding: auto;
-   display:flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   margin: auto;
-   margin-bottom: 30px;
+.presentation{
+   width:100%;
+   padding:40px;
 }
-/*DEUXIEME CARD / IMAGE*/
-.city-rue{
-   width: 90%;
-   border-radius: 20px;
-   box-shadow: 15px 15px 15px #777;
-   padding: auto;
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   margin: auto;
-   margin-bottom: 30px;
+@media screen and (max-width: 320px){
+   html{width: 100%;}
+   body {width: 100%; margin:auto;}
+   .element img{width: 400px; height: 400px; }
+   #mycity{ width: 100%; margin-left: 10px; flex-direction: column;}
+   
 }
-
-/*BUTTON*/
-input{
-   display: block;
-   position: relative;
-   margin: auto;
-   background-color: rgb(238, 108, 108);
-   width: 120px;
-   height: 30px;
-   font-size: 20px;
-   border-radius: 10px;
-   margin-top: 10px;
-}
-.button-index p{
-   font-size: 20px;
-}
-
 
 
