@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
+body{
+  background-color: #E7ECEF;
+}
 ::-webkit-scrollbar-track {
     background: coral;
 }
