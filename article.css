@@ -1,8 +1,30 @@
+body{
+    background-color: #e7ecef;
+}
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 
-.resto{
+.resto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.activity-evening{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.activity-day{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
