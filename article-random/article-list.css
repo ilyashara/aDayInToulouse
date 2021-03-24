@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.cards-activities{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.element img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 28px 0 rgba(0, 0, 0, 0.19);
+    padding:20px;
+    border-radius: 20px;
+}
+figcaption{
+    font-size: 20px;
+    text-align: center;
+}
+.element{
+    margin-left: 20px;
+    margin-bottom: 20px;    
+}
