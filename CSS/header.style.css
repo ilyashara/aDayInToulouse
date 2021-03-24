@@ -5,12 +5,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-/* custom scroll bar */
-::-webkit-scrollbar {
-    width: 10px;
+body{
+  background-color: #E7ECEF;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: coral;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
@@ -23,6 +22,7 @@
   margin: auto;
   padding: 0 30px;
 }
+
 .navbar{
   position: fixed;
   width: 100%;
@@ -31,7 +31,7 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky{
-  background: coral;
+  background:coral;
   padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
@@ -41,7 +41,8 @@
   justify-content: space-between;
 }
 .navbar .logo a{
-  color: #fff;
+    background: coral;
+    color:white;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -64,8 +65,8 @@
   color:black;
 }
 .banner{
-  background-image: url(images/aDayIn.png);
-  height: 100vh;
+  background-image: url(/images/capitole.jpg);
+  height: 60vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -127,7 +128,7 @@
     display: block;
     padding: 40px 0;
     text-align: center;
-    background:coral;
+    background:E7ECEF;
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list{
