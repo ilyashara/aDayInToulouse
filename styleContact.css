@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
@@ -31,5 +33,16 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    text-align: center;
   }
+
+ .button {
+text-align: center;
+  }
+
+.container h1 {
+  text-align: center;
+}
+  
+  select {
+    color: #999;
+}

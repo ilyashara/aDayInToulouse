@@ -12,13 +12,27 @@
 <body>
     <section id="contact">
         <div class="container">
-            <p>Contact our A Day in Toulouse staff !</p>
+            <h1>Contact our A Day in Toulouse staff !</h1>
             <form id="contactForm">
+                <label for="firstName">Prénom</label><br />
                 <input type="text" id="firstName" name="firstName" placeholder="Prénom" /><br />
+                <label for="lastName">Nom</label><br />
                 <input type="text" id="lastName" name="lastName" placeholder="Nom" /><br />
+                <label for="subject">Sujet de contact</label>
+                <select name="subject">
+                    <option value="" disabled selected hidden>Choisissez un sujet</option>
+                    <option>Conseils d'amelioration</option>
+                    <option>Se plaindre </option>
+                    <option>Vous dire que vous etes les meilleurs</option>
+                </select>
+                <label for="mail">E-mail</label><br />
                 <input type="text" id="mail" name="mail" placeholder="E-mail" /><br />
-                <textarea placeholder="Type your message here..." id="message" name="message" style="height:250px"></textarea><br />
-                <input type="submit" value="Submit" />
+                <label for="message">Message</label><br />
+                <textarea placeholder="Type your message here..." id="message" name="message"
+                    style="height:250px"></textarea><br />
+                <div class="button">
+                    <input type="submit" value="Submit" id="btn_s" />
+                </div>
             </form>
         </div>
     </section>
