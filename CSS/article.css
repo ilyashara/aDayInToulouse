@@ -38,6 +38,7 @@ h2{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 28px 0 rgba(0, 0, 0, 0.19);
     padding:20px;
     border-radius: 20px;
+    margin:30px;
 }
 figcaption{
     font-size: 20px;
