@@ -36,63 +36,70 @@
     <div class="banner"></div><br />
     <section id="contact">
         <div class="containerContact">
-            <p>Formulaire de Contact</p>
-            <form id="contactForm">
+            <p>Formulaire de Contact</p><br />
+            <div id="errorMessage"></div>
+            <form id="contactForm" onsubmit="return validation();">
                 <label for="firstName">Prénom</label><br />
                 <input type="text" id="firstName" name="firstName" placeholder="Prénom" /><br />
                 <label for="lastName">Nom</label><br />
                 <input type="text" id="lastName" name="lastName" placeholder="Nom" /><br />
                 <label for="subject">De quoi souhaites tu nous parler?</label>
-                <select name="subject">
-                  <option value="" disabled selected hidden>Choisi un sujet</option>
-                  <option>Partager ton coup de coeur</option>
-                  <option>Remonter un problème technique</option>
-                  <option>Nous faire pleins de compliments</option>
-                  <option>Autre sujet</option>
-                </select>
+                <select name="subject" id="choix">
+          <option value="" disabled selected hidden>Choisis un sujet</option>
+          <option value="1">Partager ton coup de coeur</option>
+          <option value="2">Remonter un problème technique </option>
+          <option value="3">Nous faire pleins de compliments</option>
+          <option value="4">Autre sujet</option>
+        </select>
                 <label for="mail">E-mail</label><br />
                 <input type="text" id="mail" name="mail" placeholder="E-mail" /><br />
                 <label for="message">Message</label><br />
                 <textarea placeholder="Écris ici ton message" id="message" name="message" style="height:250px"></textarea><br />
                 <div class="button">
-                    <a href="contact.html" button class="buttonEnvoyer" type="button">
-                    Envoyer
-                  </a>
+                    <button class="buttonEnvoyer" type="submit" form="contactForm" value="Submit">Submit</button>
                 </div>
             </form>
         </div>
     </section><br />
     <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="items">
-            <ul>
-              <li><a href="https://www.wildcodeschool.com/fr-FR"><img
-                src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_50/v1/static/irjoy97aq0eol8bf6959"
-                alt="logoWild"></a></li>
-            </ul>
-          </div>
-          <div class="items">
-            <h4>A Day In</h4>
-            <ul>
-              <li><a href="staff.html">Qui sommes-nous?</a></li>
-              <li><a href="contact.html">Nous contacter</a></li><br>
-            </ul>
-          </div>
-          <div class="items">
-            <h4>Réseaux Sociaux</h4>
-            <ul class="flexbox">
-              <li class="socialnetwork"><a href="http://facebook.com">
-                  <img src="images/Logo/logo-facebook1.png" alt=""></a></li>
-              <li class="socialnetwork"><a href="https://instagram.com">
-                  <img src="images/Logo/logo-instagram1.png" alt=""></a></li>
-              <li class="socialnetwork"><a href="https://twitter.com">
-                  <img src="/images/Logo/logo-twiter1.png" alt=""></a></li>
-            </ul>
-          </div>
-        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="items">
+                    <ul>
+                        <li>
+                            <a href="https://www.wildcodeschool.com/fr-FR"><img src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_50/v1/static/irjoy97aq0eol8bf6959" alt="logoWild"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items">
+                    <h4>A Day In</h4>
+                    <ul>
+                        <li><a href="staff.html">Qui sommes-nous?</a></li>
+                        <li><a href="contact.html">Nous contacter</a></li><br>
+                    </ul>
+                </div>
+                <div class="items">
+                    <h4>Réseaux Sociaux</h4>
+                    <ul class="flexbox">
+                        <li class="socialnetwork">
+                            <a href="http://facebook.com">
+                                <img src="images/Logo/logo-facebook1.png" alt=""></a>
+                        </li>
+                        <li class="socialnetwork">
+                            <a href="https://instagram.com">
+                                <img src="images/Logo/logo-instagram1.png" alt=""></a>
+                        </li>
+                        <li class="socialnetwork">
+                            <a href="https://twitter.com">
+                                <img src="/images/Logo/logo-twiter1.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
     </footer>
     <script type="text/javascript" src="JS/header.script.js"></script>
+    <script type="text/javascript" src="JS/contact.script.js"></script>
 </body>
 
 </html>

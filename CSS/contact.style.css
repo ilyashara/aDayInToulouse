@@ -50,6 +50,14 @@ textarea {
     font-size: 1.2rem;
 }
 
+#errorMessage {
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: #FE8B8E;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
 .button {
     text-align: center;
 }
