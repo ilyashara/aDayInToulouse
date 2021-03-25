@@ -107,7 +107,7 @@ body{
     padding: 0 30px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 745px) {
   body.disabled{
     overflow: hidden;
   }
