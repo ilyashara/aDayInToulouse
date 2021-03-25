@@ -8,27 +8,29 @@
     <link href="CSS/contact.style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="CSS/footer.style.css">
     <link rel="stylesheet" href="CSS/header.style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-          <div class="content">
-            <div class="logo">
-              <a href="index.html"><img src="/images/Logo/Logo 1.png" alt=""></a>
+            <div class="content">
+                <div class="logo">
+                    <a href="index.html"><img src="/images/Logo/Logo 1.png" alt=""></a>
+                </div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <li><a href="myCity.html">Ma Ville</a></li>
+                    <li><a href="article.html">Les Articles</a></li>
+                    <li><a href="contact.html">Nous Contacter</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
-            <ul class="menu-list">
-              <div class="icon cancel-btn">
-                <i class="fas fa-times"></i>
-              </div>
-              <li><a href="myCity.html">My City</a></li>
-              <li><a href="article.html">Articles</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <div class="icon menu-btn">
-              <i class="fas fa-bars"></i>
-            </div>
-          </div>
         </nav>
     </header>
     <div class="banner"></div><br />
@@ -42,18 +44,19 @@
                 <input type="text" id="lastName" name="lastName" placeholder="Nom" /><br />
                 <label for="subject">Sujet de contact</label>
                 <select name="subject">
-                    <option value="" disabled selected hidden>Choisissez un sujet</option>
-                    <option>Conseils d'amelioration</option>
-                    <option>Se plaindre </option>
-                    <option>Vous dire que vous etes les meilleurs</option>
+                  <option value="" disabled selected hidden>Choisissez un sujet</option>
+                  <option>Conseils d'amelioration</option>
+                  <option>Se plaindre </option>
+                  <option>Vous dire que vous etes les meilleurs</option>
                 </select>
                 <label for="mail">E-mail</label><br />
                 <input type="text" id="mail" name="mail" placeholder="E-mail" /><br />
                 <label for="message">Message</label><br />
-                <textarea placeholder="Type your message here..." id="message" name="message"
-                    style="height:250px"></textarea><br />
+                <textarea placeholder="Type your message here..." id="message" name="message" style="height:250px"></textarea><br />
                 <div class="button">
-                    <input type="submit" value="Submit" id="btn_s" />
+                    <a href="contact.html" button class="buttonEnvoyer" type="button">
+                    Envoyer
+                  </a>
                 </div>
             </form>
         </div>
@@ -69,14 +72,14 @@
             </ul>
           </div>
           <div class="items">
-            <h3>Our Team</h3>
+            <h3>A Day In</h3>
             <ul>
-              <li><a href="staff.html">Les Membres</a></li>
-              <li><a href="contact.html">Contact form</a></li><br>
+              <li><a href="staff.html">Qui sommes-nous?</a></li>
+              <li><a href="contact.html">Nous contacter</a></li><br>
             </ul>
           </div>
           <div class="items">
-            <h3>Social Network</h3>
+            <h3>Réseaux Sociaux</h3>
             <ul class="flexbox">
               <li class="socialnetwork"><a href="http://facebook.com">
                   <img src="images/Logo/logo-facebook1.png" alt=""></a></li>
@@ -87,8 +90,8 @@
             </ul>
           </div>
         </div>
-      </div>
     </footer>
     <script type="text/javascript" src="JS/header.script.js"></script>
 </body>
+
 </html>
