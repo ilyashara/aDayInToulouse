@@ -1,50 +1,75 @@
-body{
-    background-color: #e7ecef;
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(0, 33, 63);
 }
-h1{
-    text-align: center;
+h1 {
+  font-size: xx-large;
 }
-h2{
-    text-align: center;
+h2 {
+  font-size: x-large;
+}
+h3 {
+  font-size: large;
+}
+
+section {
+  margin-top: 40px;
 }
 
 .resto {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin: 0px;
 }
-.activity-evening{
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
+.activity-evening {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
 }
-.activity-day{
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
+.activity-day {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin: 0px;
 }
 .element img {
-    width: 300px;
-    height: 300px;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 28px 0 rgba(0, 0, 0, 0.19);
-    padding:20px;
-    border-radius: 20px;
-    margin:30px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2),
+    0 14px 28px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  margin-bottom: 10px;
 }
-figcaption{
-    font-size: 20px;
-    text-align: center;
+figcaption {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 33, 63);
 }
-.element{
-    margin-left: 20px;
-    margin-bottom: 20px;    
+.element {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.textEnd {
+  margin-bottom: 40px;
+}
+.linkPartage {
+  color: coral;
+}
+.linkPartage:hover {
+  color: rgb(204, 99, 64);
+}
+.linkPartage:active {
+  color: rgb(143, 71, 45);
 }
