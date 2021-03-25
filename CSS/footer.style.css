@@ -58,13 +58,13 @@ a{
   font-size: 1.3em;
   line-height: 30px;
 }
-.items h3{
+.items h4{
   position: relative;
   font-size: 1.3em;
   margin-bottom: 1rem;
   color: aliceblue;
 }
-.items h3::after{
+.items h4::after{
   content:"";
   position: absolute;
   width: 40px;
