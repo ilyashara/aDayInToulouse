@@ -1,26 +1,5 @@
 footer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   background-color:#383F51;
-}
-.logoWild {
-  margin-top: 20px;
-  margin-left: 20px;
-  padding-right: 30px;
-  width: 40%;
-  height: 30%;
-}
-
-.listlink {
+  color: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 0;
-  width: 50%;
-  height: 20%;
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
-  font-size: large;
 }
