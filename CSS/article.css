@@ -82,7 +82,8 @@ h3 {
 }
 /*VERSO DE L'IMAGE*/
 .card-back{ 
-  background-color: coral;
+  background-color:#E7ECEF;
+  color : black;
   transform: rotateY(180deg);
 }
 /*CARACTERISTIQUE DE L'IMAGE + LEGENDE*/
