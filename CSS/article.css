@@ -86,6 +86,9 @@ h3 {
   color : black;
   transform: rotateY(180deg);
 }
+.card-back a{
+  color: coral;
+}
 /*CARACTERISTIQUE DE L'IMAGE + LEGENDE*/
 .img-card{
   width: 300px;
