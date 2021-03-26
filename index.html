@@ -2,161 +2,168 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A Day In Toulouse</title>
-  <link rel="stylesheet" href="CSS/footer.style.css">
-  <link rel="stylesheet" href="CSS/header.style.css">
-  <link rel="stylesheet" href="CSS/index.style.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Day In Toulouse</title>
+    <link rel="stylesheet" href="CSS/footer.style.css">
+    <link rel="stylesheet" href="CSS/header.style.css">
+    <link rel="stylesheet" href="CSS/index.style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="content">
-        <div class="logo">
-          <a href="index.html"><img src="/images/Logo/Logo 1.png" alt=""></a>
+    <header>
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <a href="index.html"><img src="/images/Logo/Logo 1.png" alt=""></a>
+                </div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <li><a href="myCity.html">Ma Ville</a></li>
+                    <li><a href="article.html">Les Articles</a></li>
+                    <li><a href="contact.html">Nous Contacter</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="banner"></div>
+    <div class="about"></div>
+
+    <h1>Tu es à TOULOUSE et tu souhaites découvrir la ville? </h1>
+    <h2>Regardes ci-dessous nos propositions faites pour TOI :</h2>
+    <div class="cards">
+        <div class="suggest-activity-morning">
+            <h3>L'Activité du Matin</h3>
+            <script type="text/javascript">
+                var images = [],
+                    index = 0;
+                images[0] = "<a href = ''><img src='images/Activités/A380.jpg' alt='Photo Airbus'></a>";
+                images[1] = "<a href = ''><img src='images/Activités/Canal midi.jpg' alt='Photo Canal du Midi'></a>";
+                images[2] = "<a href = ''><img src='images/Activités/Centre ville.jpg' alt='Photo Centre Ville'></a>";
+                images[3] = "<a href = ''><img src='images/Activités/Cité espace.jpg' alt='Photo Cité de l'Espace'></a>";
+                images[4] = "<a href = ''><img src='images/Activités/Halle Machine.jpg' alt='Photo Halle de la Machine'></a>";
+                images[5] = "<a href = ''><img src='images/Activités/Stade toulousain.png' alt='Logo Stade Toulousain'></a>";
+                index = Math.floor(Math.random() * images.length);
+                document.write(images[index]);
+            </script>
         </div>
-        <ul class="menu-list">
-          <div class="icon cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-          <li><a href="myCity.html">Ma Ville</a></li>
-          <li><a href="article.html">Les Articles</a></li>
-          <li><a href="contact.html">Nous Contacter</a></li>
-        </ul>
-        <div class="icon menu-btn">
-          <i class="fas fa-bars"></i>
+        <div class="suggest-restaurant-midday">
+            <h3>Une petite Faim?</h3>
+            <script type="text/javascript">
+                var images = [],
+                    index = 0;
+                images[0] = "<a href = ''><img src='images/Restaurants/Aberge du tranchoir.jpg' alt='Photo Auberge du Tranchoir'></a>";
+                images[1] = "<a href = ''><img src='images/Restaurants/Alimentation.jpg' alt='Photo Alimentation'></a>";
+                images[2] = "<a href = ''><img src='images/Restaurants/DuckMe.jpg' alt='Photo DuckMe'></a>";
+                images[3] = "<a href = ''><img src='images/Restaurants/Emile.jpg' alt='Photo Restaurant Emile'></a>";
+                images[4] = "<a href = ''><img src='images/Restaurants/JGo.jpg' alt='Photo JGo'></a>";
+                images[5] = "<a href = ''><img src='images/Restaurants/Sarran.jpg' alt='Photo Sarran'></a>";
+                index = Math.floor(Math.random() * images.length);
+                document.write(images[index]);
+            </script>
         </div>
-      </div>
-    </nav>
-  </header>
-  <div class="banner"></div>
-  <div class="about"></div>
-  
-  <h1>Tu es à TOULOUSE et tu souhaites découvrir la ville? </h1>
-  <h2>Regardes ci-dessous nos propositions faites pour TOI :</h2>
-  <div class="cards">
-      <div class="suggest-activity-morning">
-          <h3>L'Activité du Matin</h3>
-          <script type="text/javascript">
-              var images = [],
-                  index = 0;
-              images[0] = "<a href = ''><img src='images/Activités/A380.jpg' alt='Photo Airbus'></a>";
-              images[1] = "<a href = ''><img src='images/Activités/Canal midi.jpg' alt='Photo Canal du Midi'></a>";
-              images[2] = "<a href = ''><img src='images/Activités/Centre ville.jpg' alt='Photo Centre Ville'></a>";
-              images[3] = "<a href = ''><img src='images/Activités/Cité espace.jpg' alt='Photo Cité de l'Espace'></a>";
-              images[4] = "<a href = ''><img src='images/Activités/Halle Machine.jpg' alt='Photo Halle de la Machine'></a>";
-              images[5] = "<a href = ''><img src='images/Activités/Stade toulousain.png' alt='Logo Stade Toulousain'></a>";
-              index = Math.floor(Math.random() * images.length);
-              document.write(images[index]);
-          </script>
-      </div>
-      <div class="suggest-restaurant-midday">
-          <h3>Une petite Faim?</h3>
-          <script type="text/javascript">
-              var images = [],
-                  index = 0;
-              images[0] = "<a href = ''><img src='images/Restaurants/Aberge du tranchoir.jpg' alt='Photo Auberge du Tranchoir'></a>";
-              images[1] = "<a href = ''><img src='images/Restaurants/Alimentation.jpg' alt='Photo Alimentation'></a>";
-              images[2] = "<a href = ''><img src='images/Restaurants/DuckMe.jpg' alt='Photo DuckMe'></a>";
-              images[3] = "<a href = ''><img src='images/Restaurants/Emile.jpg' alt='Photo Restaurant Emile'></a>";
-              images[4] = "<a href = ''><img src='images/Restaurants/JGo.jpg' alt='Photo JGo'></a>";
-              images[5] = "<a href = ''><img src='images/Restaurants/Sarran.jpg' alt='Photo Sarran'></a>";
-              index = Math.floor(Math.random() * images.length);
-              document.write(images[index]);
-          </script>
-      </div>
-      <div class="suggest-activity-afternoon">
-          <h3>L'Activité de l'Après-Midi</h3>
-          <script type="text/javascript">
-              var images = [],
-                  index = 0;
-              images[0] = "<a href = ''><img src='images/Activités/A380.jpg' alt='Photo Airbus'></a>";
-              images[1] = "<a href = ''><img src='images/Activités/Canal midi.jpg' alt='Photo Canal du Midi'></a>";
-              images[2] = "<a href = ''><img src='images/Activités/Centre ville.jpg' alt='Photo Centre Ville'></a>";
-              images[3] = "<a href = ''><img src='images/Activités/Cité espace.jpg' alt='Photo Cité de l'Espace'></a>";
-              images[4] = "<a href = ''><img src='images/Activités/Halle Machine.jpg' alt='Photo Halle de la Machine'></a>";
-              images[5] = "<a href = ''><img src='images/Activités/Stade toulousain.png' alt='Logo Stade Toulousain'></a>";
-              index = Math.floor(Math.random() * images.length);
-              document.write(images[index]);
-          </script>
-      </div>
-      <div class="suggest-restaurant-evening">
-          <h3>Le Resto du Soir</h3>
-          <script type="text/javascript">
-              var images = [],
-                  index = 0;
-              images[0] = "<a href = ''><img src='images/Restaurants/Aberge du tranchoir.jpg' alt='Photo Auberge du Tranchoir'></a>";
-              images[1] = "<a href = ''><img src='images/Restaurants/Alimentation.jpg' alt='Photo Alimentation'></a>";
-              images[2] = "<a href = ''><img src='images/Restaurants/DuckMe.jpg' alt='Photo DuckMe'></a>";
-              images[3] = "<a href = ''><img src='images/Restaurants/Emile.jpg' alt='Photo Restaurant Emile'></a>";
-              images[4] = "<a href = ''><img src='images/Restaurants/JGo.jpg' alt='Photo JGo'></a>";
-              images[5] = "<a href = ''><img src='images/Restaurants/Sarran.jpg' alt='Photo Sarran'></a>";
-              index = Math.floor(Math.random() * images.length);
-              document.write(images[index]);
-          </script>
-      </div>
-      <div class="suggest-party-night">
-          <h3>Envie de Sortir ?</h3>
-          <script type="text/javascript">
-              var images = [],
-                  index = 0;
-              images[0] = "<a href = ''><img src='images/Sortie/Comtess.jpg' alt='Photo Comtesse'></a>";
-              images[1] = "<a href = ''><img src='images/Sortie/Hopscotch.jpg' alt='Photo Hopscotch'></a>";
-              images[2] = "<a href = ''><img src='images/Sortie/N5.jpg' alt='Photo N5'></a>";
-              index = Math.floor(Math.random() * images.length);
-              document.write(images[index]);
-          </script>
-      </div>
-  </div>
-  <div class="textsIndex">
-      <div class="newRandom">
-          <h2>Tu souhaites obtenir une nouvelle recommandation?</h2>
-          <a href="index.html" button class="favorite styled" type="button">
-              Clique ici
-          </a>
-      </div>
-      <br>
-      <div class="linkArticles">
-          <h2>Tu veux voir la liste complète de nos suggestions?</h2>
-          <a href="article.html" button class="favorite styled" type="button">
-              Clique ici
-          </a>
-      </div>
-  </div>
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="items">
-          <ul>
-            <li><a href="https://www.wildcodeschool.com/fr-FR"><img
-                src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_50/v1/static/irjoy97aq0eol8bf6959"
-                alt="logoWild"></a></li>
-          </ul>
+        <div class="suggest-activity-afternoon">
+            <h3>L'Activité de l'Après-Midi</h3>
+            <script type="text/javascript">
+                var images = [],
+                    index = 0;
+                images[0] = "<a href = ''><img src='images/Activités/A380.jpg' alt='Photo Airbus'></a>";
+                images[1] = "<a href = ''><img src='images/Activités/Canal midi.jpg' alt='Photo Canal du Midi'></a>";
+                images[2] = "<a href = ''><img src='images/Activités/Centre ville.jpg' alt='Photo Centre Ville'></a>";
+                images[3] = "<a href = ''><img src='images/Activités/Cité espace.jpg' alt='Photo Cité de l'Espace'></a>";
+                images[4] = "<a href = ''><img src='images/Activités/Halle Machine.jpg' alt='Photo Halle de la Machine'></a>";
+                images[5] = "<a href = ''><img src='images/Activités/Stade toulousain.png' alt='Logo Stade Toulousain'></a>";
+                index = Math.floor(Math.random() * images.length);
+                document.write(images[index]);
+            </script>
         </div>
-        <div class="items">
-          <h4>A Day In</h4>
-          <ul>
-            <li><a href="staff.html">Qui sommes-nous?</a></li>
-            <li><a href="contact.html">Nous Contacter</a></li><br>
-          </ul>
+        <div class="suggest-restaurant-evening">
+            <h3>Le Resto du Soir</h3>
+            <script type="text/javascript">
+                var images = [],
+                    index = 0;
+                images[0] = "<a href = ''><img src='images/Restaurants/Aberge du tranchoir.jpg' alt='Photo Auberge du Tranchoir'></a>";
+                images[1] = "<a href = ''><img src='images/Restaurants/Alimentation.jpg' alt='Photo Alimentation'></a>";
+                images[2] = "<a href = ''><img src='images/Restaurants/DuckMe.jpg' alt='Photo DuckMe'></a>";
+                images[3] = "<a href = ''><img src='images/Restaurants/Emile.jpg' alt='Photo Restaurant Emile'></a>";
+                images[4] = "<a href = ''><img src='images/Restaurants/JGo.jpg' alt='Photo JGo'></a>";
+                images[5] = "<a href = ''><img src='images/Restaurants/Sarran.jpg' alt='Photo Sarran'></a>";
+                index = Math.floor(Math.random() * images.length);
+                document.write(images[index]);
+            </script>
         </div>
-        <div class="items">
-          <h4>Réseaux Sociaux</h4>
-          <ul class="flexbox">
-            <li class="socialnetwork"><a href="http://facebook.com">
-                <img src="images/Logo/logo-facebook1.png" alt=""></a></li>
-            <li class="socialnetwork"><a href="https://instagram.com">
-                <img src="images/Logo/logo-instagram1.png" alt=""></a></li>
-            <li class="socialnetwork"><a href="https://twitter.com">
-                <img src="/images/Logo/logo-twiter1.png" alt=""></a></li>
-          </ul>
+        <div class="suggest-party-night">
+            <h3>Envie de Sortir ?</h3>
+            <script type="text/javascript">
+                var images = [],
+                    index = 0;
+                images[0] = "<a href = ''><img src='images/Sortie/Comtess.jpg' alt='Photo Comtesse'></a>";
+                images[1] = "<a href = ''><img src='images/Sortie/Hopscotch.jpg' alt='Photo Hopscotch'></a>";
+                images[2] = "<a href = ''><img src='images/Sortie/N5.jpg' alt='Photo N5'></a>";
+                index = Math.floor(Math.random() * images.length);
+                document.write(images[index]);
+            </script>
         </div>
-      </div>
     </div>
-  </footer>
-  <script type="text/javascript" src="JS/header.script.js"></script>
+    <div class="textsIndex">
+        <div class="newRandom">
+            <h2>Tu souhaites obtenir une nouvelle recommandation?</h2>
+            <a href="index.html" button class="favorite styled" type="button">
+              Clique ici
+          </a>
+        </div>
+        <br>
+        <div class="linkArticles">
+            <h2>Tu veux voir la liste complète de nos suggestions?</h2>
+            <a href="article.html" button class="favorite styled" type="button">
+              Clique ici
+          </a>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="items">
+                    <ul>
+                        <li>
+                            <a href="https://www.wildcodeschool.com/fr-FR"><img src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_50/v1/static/irjoy97aq0eol8bf6959" alt="logoWild"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items">
+                    <h4>A Day In</h4>
+                    <ul>
+                        <li><a href="staff.html">Qui sommes-nous?</a></li>
+                        <li><a href="contact.html">Nous Contacter</a></li><br>
+                    </ul>
+                </div>
+                <div class="items">
+                    <h4>Réseaux Sociaux</h4>
+                    <ul class="flexbox">
+                        <li class="socialnetwork">
+                            <a href="https://www.facebook.com/adayintoulouse">
+                                <img src="images/Logo/logo-facebook1.png" alt=""></a>
+                        </li>
+                        <li class="socialnetwork">
+                            <a href="https://www.instagram.com/adayintoulouse/">
+                                <img src="images/Logo/logo-instagram1.png" alt=""></a>
+                        </li>
+                        <li class="socialnetwork">
+                            <a href="https://twitter.com/aDayInToulouse">
+                                <img src="/images/Logo/logo-twiter1.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="JS/header.script.js"></script>
 </body>
 
 </html>
