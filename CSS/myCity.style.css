@@ -4,6 +4,7 @@ body {
   background-color: #e7ecef;
 }
 h1,
+h2,
 h3,
 p,
 .button {
@@ -72,6 +73,10 @@ p,
 .styled:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.linkArticles{
+  margin-top: 20px;
 }
 
 /*RESPONSIVE*/
