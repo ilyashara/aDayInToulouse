@@ -32,10 +32,10 @@ function validation() {
   }
 
   if (msg.length <= 5) {
-    text = "Oublie pas d'écrire ton message";
+    text = "N'oublie pas d'écrire ton message";
     error.innerHTML = text;
     return false;
   }
-  alert("Message envoyé! Notre équipe va prendre note de ton message");
+  alert("Message envoyé ! Notre équipe va traiter ta demande");
   return true;
 }
