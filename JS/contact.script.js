@@ -36,6 +36,6 @@ function validation() {
     error.innerHTML = text;
     return false;
   }
-  alert("Message envoyé! Notre équipe va prendre note ton message");
+  alert("Message envoyé! Notre équipe va prendre note de ton message");
   return true;
 }
