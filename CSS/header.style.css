@@ -65,7 +65,7 @@ body{
   color:black;
 }
 .banner{
-  background-image: url(images/capitole.jpg);
+  background-image: url("/images/capitole.jpg");
   height: 70vh;
   background-size: cover;
   background-position: center;
